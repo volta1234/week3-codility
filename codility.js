@@ -11,5 +11,9 @@ function comparison(a, b) {
       result = `${a} is equal to ${b}`;
       break;
   }
-  return result;
+ console.log(result);
 }
+
+comparison(5, 4)
+comparison(-4, -7)
+comparison(2, 2)
